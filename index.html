@@ -26,6 +26,26 @@
 </head>
 
 <body>
+
+<div id="tp-weather-widget"></div>
+<script>
+  (function(T,h,i,n,k,P,a,g,e){g=function(){P=h.createElement(i);a=h.getElementsByTagName(i)[0];P.src=k;P.charset="utf-8";P.async=1;a.parentNode.insertBefore(P,a)};T["ThinkPageWeatherWidgetObject"]=n;T[n]||(T[n]=function(){(T[n].q=T[n].q||[]).push(arguments)});T[n].l=+new Date();if(T.attachEvent){T.attachEvent("onload",g)}else{T.addEventListener("load",g,false)}}(window,document,"script","tpwidget","//widget.thinkpage.cn/widget/chameleon.js"))</script>
+  <script>tpwidget("init", {
+      "flavor": "slim",
+      "location": "WX4FBXXFKE4F",
+      "geolocation": "enabled",
+      "language": "en",
+      "unit": "c",
+      "theme": "chameleon",
+      "container": "tp-weather-widget",
+      "bubble": "enabled",
+      "alarmType": "badge",
+      "uid": "U6663789AA",
+      "hash": "84ef264349da7f88d3b091d74e4d77ca"
+  });
+  tpwidget("show");
+  </script>
+
   <div id="container">
     <div id="wrap">
       <header id="header">
